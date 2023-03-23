@@ -1,17 +1,14 @@
-@font-face {
-    font-family: League Spartan;
-    src: url(LeagueSpartan-Regular.ttf);
- }
+
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
  
  * {
-    font-family: League Spartan;
-    font-weight: 400, 500, 700;
- }
+    font-family: 'League Spartan', sans-serif;
+}
 
 body{
-    color: black;
     font-size: 15px;
-    padding-top: 100px;
+    padding-top: 200px;
+    height: max-content;
 }
 
 .attribution {
@@ -25,7 +22,10 @@ body{
 
 .purple-text{
     color: hsl(300, 43%, 22%);
-    font-weight: 900;
+}
+
+.bold{
+    font-weight: 700;
 }
 
 .testimonial-box{
@@ -66,9 +66,9 @@ img{
     margin-bottom: 20px;
 }
 
-.testimonials{
+/* .testimonials{
     column-gap: 30px;
-}
+} */
 
 .intro-text{
     margin-bottom: 50px;
@@ -83,5 +83,27 @@ img{
     margin: 0;
     text-align: left;
 }
+
+
+.column-wrapper {
+    column-count: 3;
+    column-gap: 20px;
+}
+  
+.column1 {
+    break-before: column;
+}
+  
+.column2 {
+break-before: column;
+margin-top: 20px;
+}
+
+.column3 {
+break-before: column;
+margin-top: 40px;
+}
+  
+
 
 
