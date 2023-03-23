@@ -1,0 +1,36 @@
+@font-face {
+    font-family: League Spartan;
+    src: url(LeagueSpartan-Regular.ttf);
+ }
+ 
+ * {
+    font-family: League Spartan;
+    font-weight: 400, 500, 700;
+ }
+
+body{
+    color: black;
+    font-size: 15px;
+    margin: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+h1{
+    color: hsl(300, 43%, 22%);
+}
+
+.testimonial-box{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
