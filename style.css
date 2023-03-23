@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
  
  * {
     font-family: 'League Spartan', sans-serif;
@@ -8,9 +8,11 @@
 body{
     font-size: 15px;
     padding-top: 200px;
-    height: max-content;
-    background-image: url(/images/bg-pattern-top-desktop.svg);
-    background-repeat: no-repeat;
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+    height: 100vh;
+
 }
 
 .attribution {
@@ -22,12 +24,13 @@ body{
     color: hsl(228, 45%, 44%);
 }
 
-.purple-text{
-    color: hsl(300, 43%, 22%);
+.mini-text{
+    color:hsl(303, 10%, 53%);
 }
 
 .bold{
     font-weight: 700;
+    color: hsl(300, 43%, 22%);
 }
 
 .testimonial-box{
@@ -56,6 +59,7 @@ body{
 
 .review-star{
     padding: 10px;
+    font-weight: 500;
 }
 
 img{
