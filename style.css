@@ -9,6 +9,8 @@ body{
     font-size: 15px;
     padding-top: 200px;
     height: max-content;
+    background-image: url(/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
 }
 
 .attribution {
@@ -31,7 +33,7 @@ body{
 .testimonial-box{
     background-color: hsl(300, 43%, 22%);
     color: white;
-    padding: 10px;
+    padding: 40px;
     border-radius: 10px;
 
 }
@@ -58,7 +60,7 @@ body{
 
 img{
     border-radius: 50%;
-    height: 40px;
+    height: 50px;
 }
 
 .speech{
