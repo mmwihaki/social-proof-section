@@ -32,6 +32,7 @@ body{
     background-color: hsl(300, 43%, 22%);
     color: white;
     padding: 10px;
+    border-radius: 10px;
 
 }
 
@@ -42,6 +43,9 @@ body{
     color: hsl(300, 43%, 22%);
     font-weight: 900;
     text-align: center;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 30px;
 }
 
 .checked {
@@ -50,6 +54,34 @@ body{
 
 .review-star{
     padding: 10px;
+}
+
+img{
+    border-radius: 50%;
+    height: 40px;
+}
+
+.speech{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonials{
+    column-gap: 30px;
+}
+
+.intro-text{
+    margin-bottom: 50px;
+}
+
+.buyer-type{
+    color: hsl(333, 80%, 67%);
+    margin: 0;
+}
+
+.buyer-name{
+    margin: 0;
+    text-align: left;
 }
 
 
