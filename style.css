@@ -37,15 +37,19 @@ body{
 
 .rating-box{
     background-color: hsl(300, 24%, 96%);
-    margin: 20px;
-    
+    margin: 10px;
     border-radius: 5px;
     color: hsl(300, 43%, 22%);
     font-weight: 900;
+    text-align: center;
 }
 
 .checked {
     color: orange;
+}
+
+.review-star{
+    padding: 10px;
 }
 
 
