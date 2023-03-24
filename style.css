@@ -99,12 +99,13 @@ img{
   
 .column2 {
 break-before: column;
-margin-top: 20px;
+transform: translateY(20px);
 }
 
 .column3 {
 break-before: column;
-margin-top: 40px;
+transform: translateY(40px);
+
 }
   
 
