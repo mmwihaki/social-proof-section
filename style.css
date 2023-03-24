@@ -37,14 +37,14 @@ body{
     background-color: hsl(300, 43%, 22%);
     color: white;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 5px;
 
 }
 
 .rating-box{
     background-color: hsl(300, 24%, 96%);
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: hsl(300, 43%, 22%);
     font-weight: 900;
     text-align: center;
@@ -72,9 +72,6 @@ img{
     margin-bottom: 20px;
 }
 
-/* .testimonials{
-    column-gap: 30px;
-} */
 
 .intro-text{
     margin-bottom: 50px;
@@ -110,6 +107,78 @@ break-before: column;
 margin-top: 40px;
 }
   
+
+/* media queries for Mobile: 375px and Desktop: 1440px */
+
+@media screen and (max-width: 375px) { 
+    body{
+        font-size: 15px;
+        padding-top: 50px;
+    }
+
+    .bold{
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .mini-text{
+        text-align: center;
+    }
+
+    .column-wrapper {
+        column-count: 1;
+    }
+    
+    .column1,
+    .column2,
+    .column3 {
+    break-before: auto;
+    margin-top: 10px;
+    }
+
+    .rating-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .review-star {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    p.review-star{
+        margin-top: 10px;
+    }
+
+
+
+    .review-star span {
+        margin-right: 5px;
+    }
+
+    .buyer-name, .buyer-type{
+        padding-left: 10px;
+    }
+
+    img{
+        height: 40px;
+    }
+
+    #text{
+        padding-top: 5px;
+    }
+
+ }
+
+
+ /* Styles for desktop devices with a minimum width of 1440px */
+@media screen and (min-width: 1440px) {
+    
+  }
 
 
 
